@@ -1,0 +1,8 @@
+{
+    "initialStockValues": {
+        "currency": 500,
+        "totalShares": 5000,
+        "spotPrice": 10,
+        "marketSentiment": 0.5
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "name": "peachbot",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.ts",
+    "type": "module",
+    "scripts": {
+        "start": "ts-node src/index.ts",
+        "test": "ts-mocha \"./src/**/*.spec.ts\" --recursive --require beforeTests/beforeTests.ts"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Hammerlord/Peachbot.git"
+    },
+    "author": "Dopple",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Hammerlord/Peachbot/issues"
+    },
+    "homepage": "https://github.com/Hammerlord/Peachbot#readme",
+    "dependencies": {
+        "discord.js": "^12.5.1",
+        "moment": "^2.29.1",
+        "pg": "^8.5.1",
+        "pg-hstore": "^2.3.3",
+        "sequelize": "^6.5.0"
+    },
+    "devDependencies": {
+        "@types/chai": "^4.2.15",
+        "@types/mocha": "^8.2.1",
+        "@types/mock-require": "^2.0.0",
+        "@types/node": "^14.14.33",
+        "@types/sinon": "^9.0.11",
+        "chai": "^4.3.3",
+        "mocha": "^8.3.1",
+        "mock-require": "^3.0.3",
+        "sequelize-mock": "^0.10.2",
+        "sinon": "^9.2.4",
+        "ts-mocha": "^8.0.0",
+        "ts-node": "^8.8.1",
+        "typescript": "^4.2.3"
+    }
+}
